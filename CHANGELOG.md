@@ -2,6 +2,10 @@
 
 ## main
 
+* Experimental: call `._sidecar_files` to fetch the sidecar files for a given list of extensions, e.g. passing `["yml", "yaml"]`.
+
+    *Elia Schito*
+
 ## 2.28.0
 
 * Include SlotableV2 by default in Base. **Note:** It's no longer necessary to include `ViewComponent::SlotableV2` to use Slots.
