@@ -18,3 +18,7 @@ module Dummy
 end
 
 Dummy::Application.config.secret_key_base = "foo"
+
+# Do not silence library backtraces in test reports
+Rails.backtrace_cleaner.remove_filters!
+Rails.backtrace_cleaner.remove_silencers!
